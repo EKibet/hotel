@@ -36,3 +36,31 @@ body{
   padding: 5px 10px;
   position: relative;
 }
+.site-mid{
+  background-size: cover;
+  height: 100vh;
+  min-height: 700px;
+  width: 100%;
+}
+.site-mid .overlay:before{
+  background: rgba(0,0,0,0.45);
+  content: "";
+  position: absolute;
+  height: 100vh;
+  min-height: 700px;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+.site-mid-inner{
+  height: 100vh;
+  min-height: 700px;
+}
+.site-mid-inner .heading{
+  font-size: 80px;
+  font-family: "Playfair+Display" ,times,sans-serif;
+  color: #fff;
+  line-height: 1;
+  font-weight: bold;;
+}
