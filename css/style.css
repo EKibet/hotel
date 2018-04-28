@@ -1,0 +1,38 @@
+body{
+  background: #fff;
+  font-family: "Mukta Mahee" , arial, sans-serif;
+  font-weight: 200;
+  font-size: 16px;
+  line-height: 1.8;
+  color: #6c757d;
+}
+.site-header{
+  position: absolute;
+  top: 0;
+  width: 100%;
+  padding: 60px 0;
+  z-index: 2;
+}
+.site-navbar{
+  position: fixed;
+  display: none;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #fff;
+  min-height: 300px;
+  overflow-y: scroll;
+}
+.site-navbar nav{
+  text-align: left;
+}
+.site-navbar nav .list-menu{
+  font-family: "Playfair+display", times, serif;
+}
+.site-navbar nav .list-menu a{
+  color: #000;
+  font-size: 40px;
+  padding: 5px 10px;
+  position: relative;
+}
