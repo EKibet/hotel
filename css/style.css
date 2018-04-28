@@ -130,7 +130,6 @@ body{
   padding: 0;
 }
 .bottom-menu{
-  clear: both;
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -138,6 +137,7 @@ body{
   height: 400px;
   display: block;
   margin-bottom: 50px;
+  width: 100%;
 }
 .bt-menu{
   background: #fff;
@@ -145,24 +145,41 @@ body{
   width: 100%;
   margin-top: 58px;
 }
-.bt-menu li{
-  display: inline-block;
-}
-.bt-menu li a{
+.bt-nav{
+  width: 100%;
+  margin: 0;
   padding: 0;
-  font-weight: 400;
-  color: #777;
-  text-align: center;
-  background-color: #e5e5e5;
-  background-repeat: no-repeat;
-  border-bottom: 1px solid #d5d5d5;
-  display: inline-block;
+
 }
-.menu-1 .active a,
-.menu-1 .active a:hover
-.menu-1 .active a:focus{
+.bt-nav ul{
+  width: 100%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #B9B6BA;
+
+}
+.bt-nav li{
+  display: inline-block;
+  border-right:5px solid #bbb;
+  height: 100%;
+  width: 24%;
+}
+.bt-nav li a{
+  display: block;
+  color: #282828;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.bt-nav .active a{
+  background: #fff;
+  color: #FF6F57;
+}
+.bt-nav .active a:hover
+.bt-nav .active a:focus{
   background-color: #ddd;
   background-image: none;
-  -webkit-box-shadow:inset 0 3px 7px rgba(0,0,0,0.15);
-  box-shadow: inset 0 3px 7px rgba(0,0,0,0.15);
+
 }
