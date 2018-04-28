@@ -58,9 +58,12 @@ body{
   min-height: 700px;
 }
 .site-mid-inner .heading{
-  font-size: 80px;
+  font-size: 40px;
   font-family: "Playfair+Display" ,times,sans-serif;
   color: #fff;
   line-height: 1;
-  font-weight: bold;;
+  font-weight: 300;
+}
+.logo{
+  top: 0;
 }
