@@ -137,17 +137,24 @@ body{
   position: relative;
   height: 400px;
   display: block;
+  margin-bottom: 50px;
 }
-.menu-1 li{
+.bt-menu{
+  background: #fff;
+  height: 300px;
+  width: 100%;
+  margin-top: 58px;
+}
+.bt-menu li{
   display: inline-block;
 }
-.menu-1 li a{
+.bt-menu li a{
   padding: 0;
   font-weight: 400;
   color: #777;
   text-align: center;
   background-color: #e5e5e5;
-  background-repeat: repeat-x;
+  background-repeat: no-repeat;
   border-bottom: 1px solid #d5d5d5;
   display: inline-block;
 }
