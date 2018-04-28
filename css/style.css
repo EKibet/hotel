@@ -79,14 +79,10 @@ body{
   position: absolute;
 }
 .img-desc{
-  position: relative;
-  margin-top: -500px;
-  padding-top: 500px;
-  height: 300px;
+  margin-bottom: 50px;
 }
 .fleximage{
   background: #fff;
-  height: 100px;
   -webkit-transition: .3s all ease;
   -o-transition: .3 all ease;
   transition: 0.3s all ease;
