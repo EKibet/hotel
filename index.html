@@ -4,10 +4,16 @@
     <meta charset="utf-8">
     <title></title>
 <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-<link href="css/bootstrap.min.css" rel="stylesheet">
-<link rel="stylesheet" type="text/css" href="css/style.css">
-<link rel="stylesheet" href="css/flexslider.css">
 
+<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+<link rel="stylesheet" href="assets/css/plugins.css" />
+<link rel="stylesheet" href="assets/css/lora-web-font.css" />
+<link rel="stylesheet" href="assets/css/opensans-web-font.css" />
+<link rel="stylesheet" href="assets/css/magnific-popup.css">
+<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<script src="assets/js/vendor/bootstrap.min.js"></script>
+<script src="assets/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
   </head>
   <body>
     <header class="site-header">
@@ -50,17 +56,17 @@
     <section class="section banner">
       <div class="container">
         <div class="row">
-          <div class="col-md-3 col-sm-4 col-xs-12">
+          <div class="col-md-3">
             <p><a href="#" class="btn uppercase d-block">Happy Hour</a> </p>
             <p><a href="#" class="btn uppercase d-block">Happy Hour</a> </p>
           </div>
-          <div class="col-md-3 col-sm-4" style="background-image:url(assets/images/breakfast.jpg);">
+          <div class="col-md-3 img-fluid" style="background-image:url(assets/images/breakfast.jpg);">
             <h1 class="heading" align-items-center>Breakfast</h1>
           </div>
-          <div class="col-md-3 col-sm-4" style="background-image:url(assets/images/lunch.jpg);">
+          <div class="col-md-3 img-fluid" style="background-image:url(assets/images/lunch.jpg);">
             <h1 class="heading" align-items-center>Lunch</h1>
           </div>
-          <div class="col-md-3 col-sm-4" style="background-image:url(assets/images/dinner.jpg);">
+          <div class="col-md-3 img-fluid " style="background-image:url(assets/images/dinner.jpg);">
             <h1 class="heading" align-items-center>Dinner</h1>
           </div>
         </div>
@@ -70,9 +76,9 @@
       <div class="container">
         <div class="row">
           <div class="col-md-6">
-            <div class="media fleximage d-block box-shadow animate-box">
-              <img src="assets/images/fastFood1.jpg" alt="">
-              <img src="assets/images/fastFood2.jpg" alt="">
+            <div class="img-thumbnail animate-box">
+              <img class="img-fluid" style="width:100%; height:auto;" src="assets/images/fastFood1.jpg" alt="">
+              <img class="img-fluid" style="width:100%; height:auto;" src="assets/images/fastFood2.jpg" alt="">
             </div>
           </div>
           <div class="col-md-6 animate-box">
@@ -123,20 +129,79 @@ Ut denique fabellas per, ea sit nonumy debitis, te vim velit omnesque. Suavitate
                 <li><a href="#">Rice</a></li>
               </ul>
             </div>
-            <div id="#fastfood" class="bottom-imgs d-block">
-              <div class="col-md-4">
-                <img src="assets/images/chickenBurger.jpg" alt="">
-              </div>
-              <div class="col-md-4">
-                <img src="assets/images/beefBurger.jpg" alt="">
-              </div>
-              <div class="col-md-4">
-                <img src="assets/images/chickenPizza.jpg" alt="">
-              </div>
+        <div class="row">
+        <div class="col-md-12" data-wow-delay="0.2s">
+          <div class="carousel slide" data-ride="carousel" id="quote-carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#quote-carousel" data-slide-to="0" class="active">
+                    <img class="img-fluid" src="assets/images/chickenBurger.jpg" alt="Team Member">
+
+                <li data-target="#quote-carousel" data-slide-to="1">
+                    <img class="img-fluid" src="assets/images/beefBurger.jpg" alt="Team Member">
+                </li>
+                <li data-target="#quote-carousel" data-slide-to="2">
+                    <img class="img-fluid" src="assets/images/chickenPizza.jpg" alt="Team Member">
+
+                </li>
+        </ol>
+        <div class="carousel-inner text-center margin-top-60">
+            <div class="item active">
+                <div class="row">
+                    <div class="col-sm-6 col-sm-offset-3 details">
+                        <small>Chicken burger</small>
+                    </div>
+                </div>
             </div>
-          </div>
+            <!-- Quote 2 -->
+            <div class="item">
+                <div class="row">
+                    <div class="col-sm-6 col-sm-offset-3 details">
+
+                        <small>Beef burger<a href="#">example.com</a></small>
+                    </div>
+                </div>
+            </div>
+            <!-- Quote 3 -->
+            <div class="item">
+                <div class="row">
+                    <div class="col-sm-6 col-sm-offset-3 details">
+                        <small>ChickenPizza</small>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <a data-slide="prev" href="#quote-carousel" class="left carousel-control"><i class="fa fa-chevron-left"></i></a>
+        <a data-slide="next" href="#quote-carousel" class="right carousel-control"><i class="fa fa-chevron-right"></i></a>
+    </div>
+</div>
+
+</div>
+</div>
+</section>
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 animate-box">
+        <h2>Our Happy Customers</h2>
+      </div>
+      <div class="item active">
+        <blockquote>
+          <div class="col-md-8 col-sm-offset-2">
+          <i class="fa fa-quote-left"></i>
+          <h4>Hillary clinton</h4>
+          <p>Great food!menu is awesome.Their food are nt only great but also in the right price</p>
+        </blockquote>
         </div>
       </div>
-    </section>
+    </div>
+  </div>
+</section>
+            <script src="assets/js/vendor/jquery-1.11.2.min.js"></script>
+            <script src="assets/js/vendor/bootstrap.min.js"></script>
+            <script src="assets/js/vendor/isotope.min.js"></script>
+            <script src="assets/js/plugins.js"></script>
+             <script src="assets/js/jquery.magnific-popup.js"></script>
+            <script src="assets/js/main.js"></script>
   </body>
 </html>

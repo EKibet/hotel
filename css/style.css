@@ -80,6 +80,7 @@ body{
 }
 .img-desc{
   margin-bottom: 50px;
+  position: relative;
 }
 .fleximage{
   background: #fff;
@@ -87,6 +88,8 @@ body{
   -o-transition: .3 all ease;
   transition: 0.3s all ease;
   -webkit-transition: 0 2px 5px -2px rgba(0, 0, 0, 0.1);
+  position: absolute;
+
 }
 .fleximag {
   background: #fff;
@@ -134,14 +137,14 @@ body{
   background-position: center center;
   background-repeat: no-repeat;
   position: relative;
-  height: 400px;
+  height: 500px;
   display: block;
   margin-bottom: 50px;
   width: 100%;
 }
 .bt-menu{
   background: #fff;
-  height: 300px;
+  height: 400px;
   width: 100%;
   margin-top: 58px;
 }
@@ -177,9 +180,85 @@ body{
   background: #fff;
   color: #FF6F57;
 }
-.bt-nav .active a:hover
+.bt-nav .active a:hover{
+  background: #fff;
+}
 .bt-nav .active a:focus{
   background-color: #ddd;
   background-image: none;
+  margin-left:
+}
+.bottom-imgs img{
+  display: inline-block;
+  height: 200px;
+}
+.owl-carousel .owl-item img {
+    width:70%;
+}
 
+/* Testimonial Section */
+.carousel-indicators {
+  z-index: 0;
+}
+
+.item .details p{
+    font-size: 25px;
+    line-height: 30px;
+    font-family: 'open_sansregular';
+    color: #3a3f4b;
+    margin-bottom:50px;
+}
+.item .details small{
+    font-size: 20px;
+    font-family: 'open_sansregular';
+    color: #3a3f4b;
+}
+.item .details small a{
+   text-decoration: underline;
+    color: #3a3f4b;
+    padding-top: 30px;
+}
+#quote-carousel{
+  padding: 0 10px 30px 10px;
+  margin-top:20px;
+}
+#quote-carousel .carousel-control.left{
+  left: -40px;
+  float: left;
+}
+#quote-carousel .carousel-control.right{
+  right: -40px;
+  float: right;
+}
+#quote-carousel .carousel-indicators{
+  right: 50%;
+  top: -160px;
+  margin-right: -19px;
+}
+#quote-carousel .carousel-indicators li{
+  width: 90px;
+  height: 90px;
+  margin: 5px;
+  cursor: pointer;
+  border-radius: 50px;
+  opacity: 0.4;
+  overflow: hidden;
+  border: 2px solid #f5f6f8;
+  transition: all 0.4s;
+}
+#quote-carousel .carousel-indicators .active{
+  background: #333333;
+  width: 110px;
+  height: 110px;
+  border-radius: 100px;
+  opacity: 1;
+  overflow: hidden;
+  border: 2px solid #f5f6f8;
+}
+.carousel-inner{
+  margin-top: 200px;
+}
+.item{
+  border-left: none;
+  color: #000000;
 }
