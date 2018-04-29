@@ -376,9 +376,11 @@ input[type=email]{
   color: #fff;
 }
 .footer{
-	background:#f8f8f8;
+	background: #E86610;
   height: 400px;
   width: 100%;
+  margin-top: 70px;
+  overflow-x: hidden;
 }
 .footer .container{
 	padding:84px 0 0;
@@ -421,14 +423,19 @@ input[type=email]{
 }
 
 .footer p{
-	color:#8c9099;
-	font-size:15px;
+	color:#fff;
+	font-size:20px;
 	line-height:24px;
-	font-weight:300;
+	font-weight:400;
 	text-align:center;
+  font-family: "Noto Sans", sans-serif;
 }
 .footer p:last-child{
 	padding-bottom:0px;
+}
+.footer-ico{
+  margin-top: 60px;
+  text-align: center;
 }
 .gototop {
 	display:inline-block;
