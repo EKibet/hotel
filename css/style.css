@@ -208,6 +208,8 @@ body{
 #myCarousel{
   height: 400px;
   width: 100%;
+  overflow-x: hidden;
+  overflow: hidden;
 }
 .carousel {
 	margin: 50px auto;
@@ -315,4 +317,41 @@ body{
 .testimoni .customer{
   height: 300px;
   width: 100%;
+}
+.subscribe{
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 300px;
+  display: block;
+  margin-bottom: 50px;
+  width: 100%;
+}
+.single{
+max-width: 650px;
+margin: 0 auto;
+text-align: center;
+position: relative;
+z-index: 2;
+}
+.single h2 {
+font-size: 22px;
+color: white;
+margin-bottom: 40px;
+}
+.single .form-control {
+height: 50px;
+background: rgba(255, 255, 255, 0.6);
+border-color: transparent;
+border-radius: 20px 0 0 20px;
+}
+.single .form-control:focus {
+box-shadow: none;
+border-color: #243c4f; }
+.single .btn {
+min-height: 50px;
+border-radius: 0 20px 20px 0;
+background: #243c4f;
+color: #fff;
 }
