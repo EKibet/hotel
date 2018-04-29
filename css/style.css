@@ -6,6 +6,178 @@ body{
   line-height: 1.8;
   color: #6c757d;
 }
+.menu{
+	margin-top:34px;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 9999;
+}
+.navwrapper .container{
+	padding:0;
+	width:auto;
+}
+.navArea {
+	position:relative;
+}
+.navbar.navbar-inverse.navbar-static-top a.closeMenu {
+	width:32px;
+	height:32px;
+	border:1px solid #fff;
+	text-align:center;
+	color:#fff;
+	font-weight:normal;
+	position:absolute;
+	right:0;
+	top:20px;
+	padding:0;
+	margin:
+	-webkit-border-radius:50%;
+	-moz-border-radius:50%;
+	border-radius:50%;
+}
+.navbar.navbar-inverse.navbar-static-top a.closeMenu:hover {
+	background:none;
+}
+.isStuck .navbar.navbar-inverse.navbar-static-top a.closeMenu:hover{
+	background:none;
+}
+.closeMenu i {
+	font-size:14px;
+	line-height:32px;
+	color:#fff;
+}
+.isStuck .navbar.navbar-inverse.navbar-static-top a.closeMenu {
+	border-color:#000;
+}
+.isStuck .navbar.navbar-inverse.navbar-static-top a.closeMenu i {
+	color:#000;
+}
+.navbar-header{
+	display:none;
+}
+.nav > li > a{
+	display:inline-block;
+	font-size:12px;
+	font-weight:200;
+	letter-spacing:2px;
+}
+.navbar-nav > li{
+	float: none;
+	display: inline-block;
+}
+.navbar-nav{
+	margin: 0 auto;
+	text-align: center;
+	float: none;
+}
+
+.navbar-toggle{
+	margin-top:14px;
+}
+
+.navbar-wrapper {
+  margin-top:0px;
+  height:80px;
+  position: relative;
+  z-index: 15;
+}
+.navbar-wrapper .container{
+	padding:0px;
+}
+
+.navbar-collapse{
+	padding:0;
+}
+.navbar-collapse.in{
+	max-height:100%;
+}
+
+.navbar.navbar-inverse.navbar-static-top {
+  margin:0px auto;
+  background:none;
+  color:#c3c8d6;
+  border:none;
+  font-family: 'Open Sans', sans-serif;
+  font-size:14px;
+  font-weight:600;
+  text-transform:uppercase;
+}
+.navbar.navbar-inverse.navbar-static-top a{
+  color:#fff;
+  padding:31px 16px;
+  line-height:18px;
+  text-align:center;
+}
+.navbar.navbar-inverse.navbar-static-top a:hover{
+  background:none;
+  color:#fff;
+}
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus{
+  background: none;
+  color:#fff !important;
+}
+.navbar-inverse .navbar-nav>.active>a:hover {
+  color:#fff;
+}
+
+.hideClass{
+	display:none;
+}
+.isStuck .navbar-inverse .navbar-nav>.active>a, .isStuck .navbar-inverse .navbar-nav>.active>a:focus{
+  background: #181a1c;
+  color:#fff ;
+}
+.isStuck .navbar.navbar-inverse.navbar-static-top a:hover{
+  background:#181a1c;
+  color:#fff;
+}
+.isStuck .navbar.navbar-inverse.navbar-static-top a{
+  color:#000;
+}
+.nav-icon {
+	width:42px;
+	height:32px;
+	text-align:center;
+	background:#5b4c5c;
+	position:absolute;
+	left:50%;
+	margin-left:-21px;
+	top:36px;
+	z-index:999;
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;
+	border-radius:3px;
+}
+.nav-icon i {
+	color:#fff;
+	line-height:32px;
+	font-size:24px;
+	font-weight:normal;
+}
+.default-menu {
+	margin-top:-80px;
+}
+.stuckMenu,
+.navbar-wrapper{
+	-o-transition: all .5s;
+    -ms-transition: all .5s;
+    -moz-transition: all .5s;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+
+	background: transparent;
+}
+.isStuck{
+	background:#fff ;
+
+	-o-transition: all .5s;
+    -ms-transition: all .5s;
+    -moz-transition: all .5s;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+}
 .site-header{
   position: absolute;
   top: 0;
@@ -88,6 +260,8 @@ body{
   position: relative;
   display: flex;
 }
+.js .animate-box {
+  opacity: 0; }
 .fleximage{
   background: #fff;
   -webkit-transition: .3s all ease;
