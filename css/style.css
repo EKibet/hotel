@@ -6,6 +6,10 @@ body{
   line-height: 1.8;
   color: #6c757d;
 }
+.isStuck{
+    left:0px;
+    width:100%;
+}
 .menu{
 	margin-top:34px;
     left: 0;
@@ -13,6 +17,17 @@ body{
     right: 0;
     top: 0;
     z-index: 9999;
+}
+.logo{
+	float:left;
+	background:url(../images/logo-2.png) no-repeat 0 0;
+	width:123px;
+	height:80px;
+	font-size:0;
+	line-height:0;
+}
+.isStuck .logo{
+	background:url(../images/logo.png) no-repeat 0 0;
 }
 .navwrapper .container{
 	padding:0;
@@ -25,7 +40,7 @@ body{
 	width:32px;
 	height:32px;
 	border:1px solid #fff;
-	text-align:center;
+	text-align:left;
 	color:#fff;
 	font-weight:normal;
 	position:absolute;
@@ -69,7 +84,7 @@ body{
 }
 .navbar-nav{
 	margin: 0 auto;
-	text-align: center;
+	text-align: left;
 	float: none;
 }
 
@@ -108,7 +123,7 @@ body{
   color:#fff;
   padding:31px 16px;
   line-height:18px;
-  text-align:center;
+  text-align: left;
 }
 .navbar.navbar-inverse.navbar-static-top a:hover{
   background:none;
@@ -137,10 +152,10 @@ body{
   color:#000;
 }
 .nav-icon {
-	width:42px;
+	width:62px;
 	height:32px;
 	text-align:center;
-	background:#5b4c5c;
+	background:#ff6600;
 	position:absolute;
 	left:50%;
 	margin-left:-21px;
@@ -260,8 +275,6 @@ body{
   position: relative;
   display: flex;
 }
-.js .animate-box {
-  opacity: 0; }
 .fleximage{
   background: #fff;
   -webkit-transition: .3s all ease;
