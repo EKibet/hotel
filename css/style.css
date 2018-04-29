@@ -244,6 +244,7 @@ body{
 }
 .carousel .testimoni {
 	padding: 10px 0 10px;
+  margin-bottom: 50px;
 }
 .carousel .overview {
 	font-style: normal;
@@ -306,6 +307,7 @@ body{
 .customer{
   padding:15px;
   border:1px solid 	#bab4bb;
+  margin-bottom: 50px;
 }
 .about{
   margin-top: 20px;
