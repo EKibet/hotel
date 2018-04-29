@@ -148,7 +148,6 @@ body{
   position: relative;
   height: 500px;
   display: block;
-  margin-bottom: 50px;
   width: 100%;
 }
 .bt-menu{
@@ -327,7 +326,6 @@ body{
   position: relative;
   height: 300px;
   display: block;
-  margin-bottom: 50px;
   width: 100%;
 }
 .single{
@@ -446,4 +444,64 @@ input[type=email]{
 .gototop i {
 	color:#817a82;
 	line-height:35px;
+}#bottom-menu .owl-carousel {
+  z-index: 0; }
+
+#bottom-menu .owl-carousel .owl-stage-outer {
+  z-index: -1; }
+
+#bottom-menu .owl-theme .owl-controls {
+  margin-top: -10px;
+  z-index: 1;
+  position: absolute;
+  top: 40%;
+  left: 0;
+  right: 0;
+  margin-top: -30px; }
+
+#bottom-menu .owl-theme .owl-controls .owl-nav [class*=owl-] {
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+  -webkit-border-radius: 1px;
+  -moz-border-radius: 1px;
+  -ms-border-radius: 1px;
+  border-radius: 1px;
+  background: transparent;
+  opacity: 1; }
+  #bottom-menu .owl-theme .owl-controls .owl-nav [class*=owl-] .owl-direction {
+    background: transparent;
+    color: #000;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border: none;
+    font-size: 20px; }
+
+#bottom-menu .owl-theme .owl-controls .owl-nav .owl-prev {
+  float: left;
+  margin-left: -60px; }
+  @media screen and (max-width: 768px) {
+    #bottom-menu .owl-theme .owl-controls .owl-nav .owl-prev {
+      margin-left: 0; } }
+
+#bottom-menu .owl-theme .owl-controls .owl-nav .owl-next {
+  float: right;
+  margin-right: -60px; }
+  @media screen and (max-width: 768px) {
+    #bottom-menu .owl-theme .owl-controls .owl-nav .owl-next {
+      margin-right: 0; } }
+			.testimonyArea{
+				height:462px;
+				overflow:hidden;
+				width:100%;
+				margin:0;
 }
+
+.hotel-entry {
+  margin-bottom: 3em; }
+  .hotel-entry .hotel-img {
+    height: 280px;
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+    position: relative; }

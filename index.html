@@ -5,15 +5,20 @@
     <title></title>
 <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 
-<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+<link rel="stylesheet" href="css/bootstrap.min.css">
 <link rel="stylesheet" href="assets/css/plugins.css" />
-<link rel="stylesheet" href="assets/css/lora-web-font.css" />
-<link rel="stylesheet" href="assets/css/opensans-web-font.css" />
+<link rel="stylesheet" href="css/flexslider.css">
+
+<!-- Owl Carousel -->
+<link rel="stylesheet" href="css/owl.carousel.min.css">
+<link rel="stylesheet" href="css/owl.theme.default.min.css">
 <link rel="stylesheet" href="assets/css/magnific-popup.css">
 <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 <link rel="stylesheet" type="text/css" href="css/style.css">
 <script src="assets/js/vendor/bootstrap.min.js"></script>
 <script src="assets/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+<script src="js/modernizr-2.6.2.min.js"></script>
+
   </head>
   <body>
     <header class="site-header">
@@ -117,7 +122,7 @@ Ut denique fabellas per, ea sit nonumy debitis, te vim velit omnesque. Suavitate
         </div>
       </div>
     </section>
-    <section class="section bottom-menu" style="background-image: url(assets/images/foodsBg.jpg);">
+    <section class="section " id="bottom-menu" style="background-image: url(assets/images/foodsBg.jpg);">
       <div class="container">
         <div class="row">
           <div class="col-md-12 bt-menu">
@@ -129,41 +134,33 @@ Ut denique fabellas per, ea sit nonumy debitis, te vim velit omnesque. Suavitate
                 <li><a href="#">Rice</a></li>
               </ul>
             </div>
-            <div class="col-md-12">
-              <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="0">
-                <ol class="carousel-indicators">
-                  <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                  <li data-target="#myCarousel" data-slide-to="1"></li>
-                  <li data-target="#myCarousel" data-slide-to="2"></li>
-                </ol>
-                <div class="carousel-inner">
-                  <div class="item carousel-item active">
-                    <div class="row">
-                      <div class="col-sm-4"><div class="img-box"><img src="assets/images/chickenBurger.jpg" class="img-responsive img-fluid" alt=""></div></div>
-                      <div class="col-sm-4"><div class="img-box"><img src="assets/images/beefBurger.jpg" class="img-responsive img-fluid" alt=""></div></div>
-                      <div class="col-sm-4"><div class="img-box"><img src="assets/images/chickenPizza.jpg" class="img-responsive img-fluid" alt=""></div></div>
-                    </div>
-                  </div>
-                  <div class="item carousel-item">
-                    <div class="row">
-                      <div class="col-sm-4"><div class="img-box"><img src="assets/images/chickenBurger.jpg" class="img-responsive img-fluid" alt=""></div></div>
-                      <div class="col-sm-4"><div class="img-box"><img src="assets/images/beefBurger.jpg" class="img-responsive img-fluid" alt=""></div></div>
-                      <div class="col-sm-4"><div class="img-box"><img src="assets/images/chickenPizza.jpg" class="img-responsive img-fluid" alt=""></div></div>
-                    </div>
-                    <div class="item carousel-item">
-                      <div class="row">
-                        <div class="col-sm-4"><div class="img-box"><img src="assets/images/chickenBurger.jpg" class="img-responsive img-fluid" alt=""></div></div>
-                        <div class="col-sm-4"><div class="img-box"><img src="assets/images/beefBurger.jpg" class="img-responsive img-fluid" alt=""></div></div>
-                        <div class="col-sm-4"><div class="img-box"><img src="assets/images/chickenPizza.jpg" class="img-responsive img-fluid" alt=""></div></div>
-                      </div>
-                    </div>
-                  </div>
-                  <a class="carousel-control left carousel-control-prev" href="#myCarousel" data-slide="prev">
-                    <i class="fa fa-chevron-left"></i>
+            <div class="col-md-9">
+              <div class="owl-carousel2" data-ride="carousel" data-interval="0">
+                <div class="item">
+                <div class="hotel-entry">
+                  <a href="hotels.html" class="hotel-img" style="background-image: url(assets/images/chickenBurger.jpg);">
                   </a>
-                  <a class="carousel-control right carousel-control-next" href="#myCarousel" data-slide="next">
-                    <i class="fa fa-chevron-right"></i>
+                  <div class="desc"><
+                    >Break fast</p>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="hotel-entry">
+                  <a href="hotels.html" class="hotel-img" style="background-image: url(assets/images/beefBurger.jpg);">
                   </a>
+                  <div class="desc">
+                    <p>Break fast</p>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="hotel-entry">
+                  <a href="hotels.html" class="hotel-img" style="background-image: url(assets/images/chickenPizza.jpg);">
+                  </a>
+                  <div class="desc">
+                    <p>Break fast</p>
+                  </div>
                 </div>
               </div>
             </div>
