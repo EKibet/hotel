@@ -205,10 +205,15 @@ body{
 	margin: 0 auto;
 	float: none !important;
 }
+#myCarousel{
+  height: 400px;
+  width: 100%;
+}
 .carousel {
 	margin: 50px auto;
-	padding: 0 70px;
+	padding: 0 30px;
   width: 500px;
+  height: 300px;
 }
 .carousel .item {
 	color: #999;
@@ -218,12 +223,16 @@ body{
     min-height: 290px;
 }
 .carousel .item .img-box {
-	width: 135px;
-	height: 135px;
+	width: 90px;
+	height: 90px;
 	margin: 0 auto;
 	padding: 5px;
 	border: 1px solid #ddd;
 	border-radius: 50%;
+}
+.carousel .testimonial p{
+  width: 100%;
+
 }
 .carousel .img-box img {
 	width: 100%;
@@ -231,33 +240,33 @@ body{
 	display: block;
 	border-radius: 50%;
 }
-.carousel .testimonial {
-	padding: 30px 0 10px;
+.carousel .testimoni {
+	padding: 10px 0 10px;
 }
 .carousel .overview {
-	font-style: italic;
+	font-style: normal;
 }
 .carousel .overview b {
-	text-transform: uppercase;
-	color: #7AA641;
+	color: #333333;
+  font-weight: 400;
 }
 .carousel .carousel-control {
-	width: 40px;
-    height: 40px;
-    margin-top: -20px;
-    top: 50%;
+	width: 20px;
+  height: 20px;
+  margin-top:100px;
+  top: 5%;
 	background: none;
+  margin-right: 180px;
 }
 .carousel-control i {
-    font-size: 68px;
+  font-size: 48px;
 	line-height: 42px;
-    position: absolute;
-    display: inline-block;
+  display: inline-block;
 	color: rgba(0, 0, 0, 0.8);
-    text-shadow: 0 3px 3px #e6e6e6, 0 0 0 #000;
+  text-shadow: 0 3px 3px #e6e6e6, 0 0 0 #000;
 }
 .carousel .carousel-indicators {
-	bottom: -40px;
+	bottom: -5px;
 }
 .carousel-indicators li, .carousel-indicators li.active {
 	width: 10px;
@@ -280,7 +289,7 @@ body{
 	font-family: "Roboto", sans-serif;
 	font-weight: 400;
 	position: relative;
-	margin: 30px 0 60px;
+	margin: 5px 0 5px;
 }
 .customer h2::after {
 
@@ -291,10 +300,19 @@ body{
 	background: #8fbc54;
 	left: 0;
 	right: 0;
-	bottom: -10px;
 }
 .customer{
   padding:15px;
-  display:block;
   border:1px solid 	#bab4bb;
+}
+.about{
+  margin-top: 20px;
+  border-left:1px solid #d9d9d9;
+  text-shadow: 0 3px 3px #e6e6e6, 0 0 0 #000;
+  font-family: 'Droid Serif';
+
+}
+.testimoni .customer{
+  height: 300px;
+  width: 100%;
 }
