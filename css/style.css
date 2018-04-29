@@ -86,6 +86,7 @@ body{
 .img-desc{
   margin-bottom: 50px;
   position: relative;
+  display: flex;
 }
 .fleximage{
   background: #fff;
@@ -105,7 +106,6 @@ body{
   -webkit-transition: 0 2px 5px -2px rgba(0, 0, 0, 0.1);
   display: block;
   padding:15px;
-  display:block;
   border:1px solid 	#bab4bb;
 }
 .desc{
@@ -489,3 +489,14 @@ input[type=email]{
     display: block;
     margin-bottom: 20px;
     position: relative; }
+    .colorlib-loader {
+      position: fixed;
+      left: 0px;
+      top: 0px;
+      width: 100%;
+      height: 100%;
+      z-index: 9999;
+      background: url(../asssets/images/loader.gif) center no-repeat #fff; }
+
+    .js .animate-box {
+      opacity: 0; }
