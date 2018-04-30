@@ -274,6 +274,18 @@ body{
 	padding:2px;
 	display:block;
 	border:0px solid #bab4bb;
+  background: #fff;
+  -webkit-transition: .3s all ease;
+  -o-transition: .3 all ease;
+  transition: 0.3s all ease;
+  -webkit-transition: 0 2px 5px -2px rgba(0, 0, 0, 0.1);
+  padding:15px;
+  border:1px solid 	#bab4bb;
+}
+.navi{
+  background-color: #fff;
+  width: 100%;
+  height: 300px;
 }
 .banner1 .heading{
   font-style: italic;
@@ -345,6 +357,14 @@ body{
   margin-bottom: 50px;
   padding: 0;
 }
+.imgs{
+  background-color: #fff;
+}
+.imgsld{
+  background-color: #000;
+  height: 300px;
+  width: 70%;
+}
 .bottom-menu{
   background-size: cover;
   background-position: center center;
@@ -353,6 +373,12 @@ body{
   height: 500px;
   display: block;
   width: 100%;
+}
+.imgslid{
+  background: #fff;
+  height: 400px;
+  width: 100%;
+  margin-top: 58px;
 }
 .bt-menu{
   background: #fff;
@@ -379,7 +405,7 @@ body{
   display: inline-block;
   border-right:5px solid #bbb;
   height: 100%;
-  width: 24%;
+  width: 20%;
 }
 .bt-nav li a{
   display: block;
@@ -446,7 +472,6 @@ body{
 	border-radius: 50%;
 }
 .carousel .testimoni {
-	padding: 10px 0 10px;
   margin-bottom: 50px;
 }
 .carousel .overview {
@@ -493,14 +518,18 @@ body{
 .customer{
   padding:15px;
   border:1px solid 	#bab4bb;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
 .about{
   margin-top: 20px;
-  border-left:1px solid #d9d9d9;
+  border-left:2px solid #d9d9d9;
+  height: 250px;
+}
+.about p{
+
   text-shadow: 0 3px 3px #e6e6e6, 0 0 0 #000;
   font-family: 'Droid Serif';
-
 }
 .testimoni .customer{
   height: 300px;
