@@ -154,7 +154,7 @@ body{
 .nav-icon {
 	width:62px;
 	height:32px;
-	text-align:center;
+	text-align: left;
 	background:#ff6600;
 	position:absolute;
 	left:50%;
