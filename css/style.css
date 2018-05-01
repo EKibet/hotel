@@ -591,12 +591,15 @@ box-shadow: none;
 border-color: #243c4f; }
 .single .btn-custom {
 min-height: 50px;
-background: #ff751a;
+background: #f15a29;
 color: #fff;
 width: 170px;
 font-size: 17px;
 font-weight: 300;
 letter-spacing: 2px;
+}
+.colorlib-imag{
+  height: 300px;
 }
 .single .btn-custom:hover{
   background-color: #fff;
@@ -613,7 +616,7 @@ input[type=email]{
   color: #fff;
 }
 .footer{
-	background: #E86610;
+	background: #f15a29;
   height: 400px;
   width: 100%;
   margin-top: 70px;
@@ -689,18 +692,12 @@ input[type=email]{
 	color:#817a82;
 	line-height:35px;
 }
-#colorlib-hotel .owl-carousel {
-  z-index: 0; }
 
-#colorlib-hotel .owl-carousel .owl-stage-outer {
-  z-index: -1; }
-
-
-.hotel-entry {
+.image-entry {
   margin-bottom: 3em; }
-  .hotel-entry .hotel-img {
+  .image-entry .hotel-img {
     height: 200px;
-    width: 100%;
+    width: 250px;
     background: #fff;
     display: block;
     margin-bottom: 20px;
@@ -741,7 +738,7 @@ input[type=email]{
         background: transparent;
         opacity: 1; }
         #colorlib-testimony .owl-theme .owl-controls .owl-nav [class*=owl-] .owl-direction {
-          background: transparent;
+          background: #f15a29;
           color: #000;
           -webkit-box-shadow: none;
           box-shadow: none;
@@ -757,7 +754,7 @@ input[type=email]{
 
       #colorlib-testimony .owl-theme .owl-controls .owl-nav .owl-next {
         float: right;
-        margin-right: -60px; }
+        margin-right: 60px; }
         @media screen and (max-width: 768px) {
           #colorlib-testimony .owl-theme .owl-controls .owl-nav .owl-next {
-            margin-right: 0; } }
+            margin-right: 10%; } }
