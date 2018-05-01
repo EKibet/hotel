@@ -264,12 +264,47 @@ body{
 .logo{
   top: 0;
 }
+.btn-banner1{
+  background-color: #fff;
+  opacity: 0.2;
+  padding: 27.5px;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+}
+.btn-banner{
+  padding: 20px;
+  color: black;
+  background-color: #f15a29;
+  padding: 27.5px 25px 27.5px 25px;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+}
 .banner1{
   margin-bottom: 70px;
   width: 100%;
   height: 150px;
   position: relative;
 
+}
+.btn-banner p:hover{
+  padding: 20px;
+  color: black;
+  background-color: #fff;
+  padding: 27.5px 25px 27.5px 25px;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+}
+.btn-banner1 p:hover{
+  background-color: #f15a29;
+  padding: 20px;
+  color: black;
+  padding: 27.5px 25px 27.5px 25px;
+  color: black;
+  text-align: center;
+  text-decoration: none;
 }
 .banner1 img{
   width: 100%;
@@ -305,10 +340,8 @@ body{
   border-right:5px solid #bbb;
 
 }
-.containe{
-  margin-left: 10%;
-  margin-top: 15px;
-  padding:50px 0px 0 0;
+.colo{
+
 }
 
 .banner1 .heading{
@@ -384,10 +417,15 @@ body{
 .imgs{
   background-color: #fff;
 }
-.imgsld{
-  background-color: #000;
-  height: 300px;
-  width: 70%;
+.cololib-imag{
+  background-color: #fff;
+  height: 400px;
+  width: 100%;
+  padding-top: 50px;
+  margin-left: 3%;
+  margin-right: 8%;
+  margin-top: 15px;
+  padding:50px 0px 0 0;
 }
 .bottom-menu{
   background-size: cover;
@@ -411,7 +449,7 @@ body{
   margin-top: 58px;
 }
 .bt-nav{
-  width: 80%;
+  width: 100%;
   margin: 0;
   padding: 0;
 
@@ -463,6 +501,37 @@ body{
   overflow-x: hidden;
   overflow: hidden;
 }
+#myCarousel-testimony .owl-theme .owl-controls .owl-nav [class*=owl-] {
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+  -webkit-border-radius: 1px;
+  -moz-border-radius: 1px;
+  -ms-border-radius: 1px;
+  border-radius: 1px;
+  background: transparent;
+  opacity: 1; }
+  #myCarousel-testimony .owl-theme .owl-controls .owl-nav [class*=owl-] .owl-direction {
+    background: #f15a29;
+    color: #000;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border: none;
+    font-size: 20px; }
+
+#myCarousel-testimony .owl-theme .owl-controls .owl-nav .owl-prev {
+  float: left;
+  margin-left: 10px; }
+  @media screen and (max-width: 768px) {
+    #myCarousel-testimony .owl-theme .owl-controls .owl-nav .owl-prev {
+      margin-left: 0; } }
+
+#myCarousel-testimony .owl-theme .owl-controls .owl-nav .owl-next {
+  float: right;
+  margin-right: 60px; }
+  @media screen and (max-width: 768px) {
+    #myCarousel-testimony .owl-theme .owl-controls .owl-nav .owl-next {
+      margin-right: 5%; } }
 .carousel {
 	margin: 50px auto;
 	padding: 0 30px;
@@ -480,9 +549,10 @@ body{
 	width: 90px;
 	height: 90px;
 	margin: 0 auto;
-	padding: 5px;
+	padding: 0px;
 	border: 1px solid #ddd;
 	border-radius: 50%;
+
 }
 .carousel .testimonial p{
   width: 100%;
@@ -599,7 +669,7 @@ font-weight: 300;
 letter-spacing: 2px;
 }
 .colorlib-imag{
-  height: 300px;
+  height: 00px;
 }
 .single .btn-custom:hover{
   background-color: #fff;
@@ -697,11 +767,14 @@ input[type=email]{
   margin-bottom: 3em; }
   .image-entry .hotel-img {
     height: 200px;
-    width: 250px;
+    width: 265px;
     background: #fff;
     display: block;
     margin-bottom: 20px;
-    position: relative; }
+    position: relative;
+    margin-left: 35px;
+    padding: 0;
+ }
     .colorlib-loader {
       position: fixed;
       left: 0px;
@@ -747,7 +820,7 @@ input[type=email]{
 
       #colorlib-testimony .owl-theme .owl-controls .owl-nav .owl-prev {
         float: left;
-        margin-left: -60px; }
+        margin-left: 10px; }
         @media screen and (max-width: 768px) {
           #colorlib-testimony .owl-theme .owl-controls .owl-nav .owl-prev {
             margin-left: 0; } }
@@ -757,4 +830,4 @@ input[type=email]{
         margin-right: 60px; }
         @media screen and (max-width: 768px) {
           #colorlib-testimony .owl-theme .owl-controls .owl-nav .owl-next {
-            margin-right: 10%; } }
+            margin-right: 5%; } }
