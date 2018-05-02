@@ -7,7 +7,7 @@ Setup/Installation Requirements
 open browser
 visit https://github.com/detectiveyego/hotel.git
 Support and contact details
-Matt Nicholas: kibetedgar@gmail.com
+Edgar Kibet: kibetedgar@gmail.com
 
 Technologies Used
 This site was designed using HTML, CSS, Bootstrap, Java Script and jQuery. View the source code at https://github.com/detectiveyego/hotel.git
